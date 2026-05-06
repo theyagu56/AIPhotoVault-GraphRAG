@@ -1,0 +1,31 @@
+# ── .NET ─────────────────────────────────────────────────
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.log
+
+# ── Secrets — NEVER commit real keys ─────────────────────
+appsettings.*.json
+!appsettings.Development.json
+
+# ── Node / Next.js ────────────────────────────────────────
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/.env*.local
+
+# ── SQLite databases ──────────────────────────────────────
+*.db
+*.db-shm
+*.db-wal
+
+# ── macOS ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Thumbnails & media cache ──────────────────────────────
+MediaRoot/
