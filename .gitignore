@@ -27,5 +27,9 @@ frontend/.env*.local
 .DS_Store
 Thumbs.db
 
-# ── Thumbnails & media cache ──────────────────────────────
-MediaRoot/
+# ── Project data folder (db + thumbnails — too large for git) ─
+data/MediaRoot/Application/Database/
+data/MediaRoot/Application/Thumbnails/
+data/MediaRoot/Application/Cache/
+# Keep the folder structure itself
+!data/MediaRoot/Application/.gitkeep
